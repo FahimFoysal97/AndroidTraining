@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">DrawerFragmentTab</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="go_to_second_activity">Go to second activity</string>
+    <string name="go_to_third_activity">Go to third activity</string>
+    <string name="favorite">Favorite</string>
+    <string name="about">About</string>
+    <string name="restore_from_trash">Restore From Trash</string>
+    <string name="this_is_second_activity">This is second activity</string>
+    <string name="this_is_third_activity">This is third activity</string>
+    <string name="this_is_trash_fragment">This is trash fragment</string>
+    <string name="this_is_favorite_fragment">This is favorite fragment</string>
+    <string name="this_is_about_fragment">This is about fragment</string>
+    <string name="action_logout">Logout</string>
+    <string name="fragments">Fragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout_dialog">Are you sure you want to logout?</string>
+    <string name="you_selected_yes">You selected yes</string>
+    <string name="you_selected_no">You selected no</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="favorites_fragment_heading_text">Favorites</string>
+    <string name="photograph_name">Photograph Name</string>
+    <string name="icon">Icon</string>
+    <string name="photographer_name">Photographer Name</string>
+    <string name="send_response_to_the_host_activity">Send response to the host activity</string>
+    <string name="received_data_will_be_displayed_here">Received data will be displayed here</string>
+    <string name="download">Download</string>
+</resources>

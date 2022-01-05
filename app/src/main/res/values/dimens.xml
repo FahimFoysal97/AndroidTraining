@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="frag_text_size">20sp</dimen>
+    <dimen name="favorites_fragment_heading_text_size">20sp</dimen>
+    <dimen name="favorites_fragment_recyclerview_margin_size">4dp</dimen>
+    <dimen name="favorites_fragment_heading_text_padding_size">8dp</dimen>
+    <dimen name="photograph_name">18sp</dimen>
+    <dimen name="photograph_adapter_layout_padding">8dp</dimen>
+    <dimen name="photograph_adapter_layout_image_margin">8dp</dimen>
+    <dimen name="photograph_adapter_layout_image_height_width">50dp</dimen>
+    <dimen name="photograph_adapter_layout_photograph_name_padding">4dp</dimen>
+    <dimen name="photograph_adapter_layout_photographer_name_padding">4dp</dimen>
+    <dimen name="photograph_adapter_layout_margin">8dp</dimen>
+    <dimen name="second_activity_textview2_text_size">20sp</dimen>
+    <dimen name="second_activity_textview2_top_margin">8dp</dimen>
+    <dimen name="second_activity_imageview_downloaded_image_padding">8dp</dimen>
+</resources>

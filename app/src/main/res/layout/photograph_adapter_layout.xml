@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/favorites_fragment_recyclerview_margin_size">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3ED5D3">
+
+        <ImageView
+            android:id="@+id/photograph_image"
+            android:layout_width="@dimen/photograph_adapter_layout_image_height_width"
+            android:layout_height="@dimen/photograph_adapter_layout_image_height_width"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/photograph_adapter_layout_image_margin"
+            android:layout_marginEnd="@dimen/photograph_adapter_layout_image_margin"
+            android:contentDescription="@string/icon"
+            app:srcCompat="?attr/selectableItemBackground" />
+
+        <TextView
+            android:id="@+id/photograph_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/photograph_adapter_layout_photograph_name_padding"
+            android:text="@string/photograph_name"
+            android:textSize="@dimen/photograph_name"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/photograph_image"/>
+
+        <TextView
+            android:id="@+id/photographer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/photograph_adapter_layout_photographer_name_padding"
+            android:text="@string/photographer_name"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/photograph_image"
+            android:layout_below="@id/photograph_name"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
